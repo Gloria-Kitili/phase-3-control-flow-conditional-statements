@@ -1,8 +1,8 @@
 def admin_login(username, password)
   # your code here
-if username == "admin" || username == "ADMIN" && password == "12345" 
+if (username == "admin" || username == "ADMIN") && password == "12345" 
   "Access granted"
-elsif
+else
   "Access denied"
 end
 end 
@@ -51,7 +51,7 @@ def calculator(operation, num1, num2)
   else
     puts "Invalid operation!"
   end 
-  nil
+  
 end
  
 
